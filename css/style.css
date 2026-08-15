@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #19172a;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 45px;
+    box-shadow: 0px 0px 30px 1px rgba(204, 204, 204, 0.5);
+    color: #fff;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+
+.navbar-links li a:active {
+    color: #face30;
+}
+
+main .card {
+    width: 900px;
+    margin: 120px auto;
+    color: grey;
+    text-align: center;
+}
+
+.card p {
+    margin: 20px 0px;
+    line-height: 28px;
+    text-align: justify;
+}
